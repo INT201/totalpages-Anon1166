@@ -1,7 +1,6 @@
  const { template } = require('@babel/core')
 
 function totalPages(arrayItems, rowsPerPage) {
-  let a = arrayItems.concat(rowsPerPage);
   if(arrayItems === null || arrayItems === undefined){
     return undefined;
   }else if(rowsPerPage === null || rowsPerPage === undefined || rowsPerPage === 0){
